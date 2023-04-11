@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <button className="bg_red-500 text-white font bold py-2 px-4">
+        <button className="bg_red-500 text-white font bold py-2 px-4 ">
           hello tailwind
         </button>
       </header>
