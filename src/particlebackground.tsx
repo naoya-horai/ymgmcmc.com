@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
+import './App.css';
 
 function particleBackground() {
   return (
@@ -77,7 +78,7 @@ function particleBackground() {
             }
           },
           "interactivity": {
-            "detect_on": "canvas",
+            "detect_on": "window",
             "events": {
               "onhover": {
                 "enable": true,
@@ -118,7 +119,7 @@ function particleBackground() {
           },
           "retina_detect": true
         }}
-      />
+      className='Particle-canvas'/>
   )
 }
 

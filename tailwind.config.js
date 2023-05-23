@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      body: [
+        'DIN Alternate'
+      ]
+    }
   },
   plugins: [],
 }
