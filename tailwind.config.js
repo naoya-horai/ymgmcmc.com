@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       body: [
-        'DIN Alternate'
+        'Ubuntu',
+        'sans-serif'
       ]
     }
   },
