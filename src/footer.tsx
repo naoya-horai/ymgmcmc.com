@@ -1,16 +1,16 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
-import './App.css';
-
-function footer() {    
+import { Link
+ } from 'react-router-dom';
+function Footer() {    
     return( 
         <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="flex flex-col items-center justify-between gap-4 border-t border-b py-6 md:flex-row">
         <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Works</a>
+            <Link to="/about" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
+            <Link to="/works" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Works</Link>
             <a href="https://docs.ymgmcmc.com" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
+            <a href="https://forms.gle/n7bebwEsL4BmYgM68" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
         </nav>
         <div className="flex gap-4">
 
@@ -39,4 +39,4 @@ function footer() {
         )
 }
 
-export default footer;
+export default Footer;
