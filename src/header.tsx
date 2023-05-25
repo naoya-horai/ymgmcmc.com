@@ -61,10 +61,10 @@ function Header(){
                             : 'fixed top-[-100%]'
                         }>
                             <div className="flex flex-col  items-center py-4">
-                            <Link to="/about" className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
-                            <Link to="/works" className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">Works</Link>
-                            <a href="https://docs.ymgmcmc.com" className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
-                            <a href="https://forms.gle/n7bebwEsL4BmYgM68" className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
+                            <Link to="/about" onClick={handleMenuOpen} className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
+                            <Link to="/works" onClick={handleMenuOpen} className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">Works</Link>
+                            <a href="https://docs.ymgmcmc.com" onClick={handleMenuOpen} className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
+                            <a href="https://forms.gle/n7bebwEsL4BmYgM68" onClick={handleMenuOpen} className="text-black transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
                             </div>
                             <div className="flex flex-row  items-center py-4 gap-4">
                             <a href="https://twitter.com/ymgmcmc?s=21&t=g-t_I-yr7PrbZGt8DS8QoQ" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">

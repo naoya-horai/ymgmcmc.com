@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'about': 'url(./bgcover.jpg)'
+      }
+    },
     fontFamily: {
       body: [
         'Ubuntu',
