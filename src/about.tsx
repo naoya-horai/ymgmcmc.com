@@ -7,7 +7,7 @@ function About(){
         <Banner name='About' abstract='who is ymg'/>
         <div className="flex justify-center px-8 py-4 text-lg">ymgmcmc / Naoya Horai
         </div>
-        <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-center px-20 lg:px-48 xl:px-64 py-4 text-center md:text-left">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-center px-8 md:px-20 lg:px-48 xl:px-64 py-4 text-center md:text-left">
             <img src={logo} className='rounded-full drop-shadow h-48 w-48'></img>
         <div>        
             <p>3DCG Artist / Engeneer </p>
@@ -16,12 +16,12 @@ function About(){
             <p>情報工学科 IoTシステムコース 在学</p>
             <p>2025年卒業予定</p>
             <p></p>
-            <p>Pythonを中心としたソフトウェア、ツール開発や、Blender、Houdini、Substanceを用いた主にVR向けのフォトリアルなプロップ・環境3Dモデルを作成しています。</p>
+            <p className="text-left">Pythonを中心としたソフトウェア、ツール開発や、Blender、Houdini、Substanceを用いた主にVR向けのフォトリアルなプロップ・環境3Dモデルを作成しています。</p>
             <p>趣味はDJ、カメラ(スナップ中心)</p>
         </div>
         
         </div>
-        <div className="flex flex-col md:flex-row justify-start px-20 lg:px-48 xl:px-64 py-4 gap-4 md:gap-8">
+        <div className="flex flex-col md:flex-row justify-start px-8 md:pxx-20 lg:px-48 xl:px-64 py-4 gap-4 md:gap-8">
             <div className="flex flex-col text-left">
             <p className="text-lg">スキル</p>
             <p> </p>
@@ -56,7 +56,7 @@ function About(){
             </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-start px-20 lg:px-48 xl:px-64 py-4 gap-4 md:gap-8">
+        <div className="flex flex-col md:flex-row justify-start px-8 md:px-20 lg:px-48 xl:px-64 py-4 gap-4 md:gap-8">
             <div className="flex flex-col text-left">
             <p className="text-lg">環境</p>
             <p> </p>
