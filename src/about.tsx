@@ -5,10 +5,13 @@ function About(){
     return(
         <div>
         <Banner name='About' abstract='who is ymg'/>
+        <body className="px-4 md:px-8">
+        
+        
         <div className="flex justify-center px-8 py-4 text-lg">ymgmcmc / Naoya Horai
         </div>
-        <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-center px-8 md:px-20 lg:px-48 xl:px-64 py-4 text-center md:text-left">
-            <img src={logo} className='rounded-full drop-shadow h-48 w-48'></img>
+        <div className="flex flex-col md:flex-row gap-4 md:gap-8 border-b justify-center items-center px-8 md:px-20 lg:px-48 xl:px-64 py-4 text-center md:text-left">
+            <img src={logo} className='rounded-full border h-48 w-48 z=1'></img>
         <div>        
             <p>3DCG Artist / Engeneer </p>
             <p></p>
@@ -21,7 +24,7 @@ function About(){
         </div>
         
         </div>
-        <div className="flex flex-col md:flex-row justify-start px-8 md:pxx-20 lg:px-48 xl:px-64 py-4 gap-4 md:gap-8">
+        <div className="flex flex-col md:flex-row justify-start px-8 md:px-20 lg:px-48 xl:px-64 py-4 gap-4 md:gap-8">
             <div className="flex flex-col text-left">
             <p className="text-lg">スキル</p>
             <p> </p>
@@ -86,6 +89,7 @@ function About(){
             </div>
         </div>
         
+        </body>
         </div>
     )
 }

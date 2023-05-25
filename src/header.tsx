@@ -8,7 +8,7 @@ function Header(){
         setOpenMenu(!openMenu)
     }
     return(
-        <header className="w-full h-20 bg-white ">
+        <header className="w-full h-20 bg-white border-b ">
             <div className="flex justify-between px-8">
                 <div className="w-20 items-center">
                     <Link to="/">
@@ -57,7 +57,7 @@ function Header(){
                     <nav
                         className={
                         openMenu
-                            ? 'fixed bg-white right-0 top-0 w-full h-1/3 flex flex-col justify-center text-xl items-center  ease-out duration-300'
+                            ? 'fixed bg-white right-0 top-0 w-full h-1/3 flex flex-col justify-center text-xl items-center  ease-out duration-300 border-b'
                             : 'fixed top-[-100%]'
                         }>
                             <div className="flex flex-col  items-center py-4">
