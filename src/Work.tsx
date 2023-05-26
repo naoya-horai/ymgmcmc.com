@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import logo from './logo.png'
+import logo from './Asset/bbgabout.png'
 
 const Work = ({name}: any) =>{
     const [openWork, setOpenWork] = useState(false);
@@ -21,7 +21,8 @@ const Work = ({name}: any) =>{
                         
                     </div>
             </div>
-            <div className={openWork ? "fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white w-5/6 h-4/5 border ease-out duration-300 "
+            <div className={openWork ? "fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full z-7" : "hidden"} >
+            <div className={openWork ? "fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white w-5/6 h-4/5 border ease-out duration-300 z-8"
             :"hidden"}
             >
                 <button onClick={handleWorkOpen}
@@ -33,9 +34,10 @@ const Work = ({name}: any) =>{
                     </svg>
                 </button>
                 <div className="flex flex-col md:flex-row gap-4 px-8">
-                    <img src={logo}></img>
+                    <img src={logo} className="flex w-full h-max-full md:w-2/3 justify-center md:items-center"></img>
                     <p>ワークのテストです。</p>
                 </div>
+            </div>
             </div>
     </div>
     )
