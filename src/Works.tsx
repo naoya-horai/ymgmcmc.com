@@ -8,12 +8,12 @@ function Works(){
             <Banner name='Works' image='bg-works'/>
         <body className="flex px-4 md:px-8  py-8 justify-center items-center">
            <div className="gap-2 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" >
-            <Work name='test0'/>
-            <Work name='test1'/>
-            <Work name='test2'/>
-            <Work name='test3'/>
-            <Work name='test4'/>
-            <Work name='test5'/>
+            <Work name='ワーク1'/>
+            <Work name='ワーク2'/>
+            <Work name='ワーク3'/>
+            <Work name='ワーク4'/>
+            <Work name='ワーク5'/>
+            <Work name='ワーク6'/>
             </div>
             
         </body>
