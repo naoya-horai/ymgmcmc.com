@@ -12,7 +12,7 @@ module.exports = {
     },
     fontFamily: {
       body: [
-        'Ubuntu',
+        'Noto Sans JP',
         'sans-serif'
       ]
     },
