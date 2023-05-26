@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'about': 'url(./bgcover.jpg)'
+        'about': 'url(./Asset/bbgabout.png)',
+        'works': 'url(./Asset/bbgworks.jpg)'
       }
     },
     fontFamily: {

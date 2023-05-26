@@ -4,7 +4,7 @@ import logo from './logo.png'
 function About(){
     return(
         <div>
-        <Banner name='About' abstract='who is ymg'/>
+        <Banner name='About' image='bg-about'/>
         <body className="px-4 md:px-8">
         
         
