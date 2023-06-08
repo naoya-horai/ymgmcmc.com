@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import logo from './Asset/bbgabout.png'
+import Vimeo from '@u-wave/react-vimeo'
 
-const Work = ({name}: any) =>{
+const Work = ({name,video}: any) =>{
     const [openWork, setOpenWork] = useState(false);
     const handleWorkOpen = () => {
         setOpenWork(!openWork)
@@ -10,6 +11,7 @@ const Work = ({name}: any) =>{
         <div>
             <div className="h-60 w-80 bg-white flex items-center justify-center">
                     <div className=" px-4 md:px-8">
+                        
                         
                         <button onClick={handleWorkOpen}
                         type="button"
@@ -34,8 +36,13 @@ const Work = ({name}: any) =>{
                     </svg>
                 </button>
                 <div className="flex flex-col md:flex-row gap-4 px-8">
-                    <img src={logo} className="flex w-full h-max-full md:w-2/3 justify-center md:items-center"></img>
-                    <p>ワークのテストです。</p>
+                    <Vimeo video={video} className="flex w-full h-max-full md:w-2/3 justify-center md:items-center"/>
+                    <p>materialXをunity向けのマテリアルに変換するスクリプト。</p>
+                    <p>mtlxファイルをmatファイルに変換する</p>
+                    <p>制作時期:2023年4月</p>
+                    <p>制作期間:1週間</p>
+                    <p>使用ツール:VSCode Unity Houdini</p>
+                    <p>言語:Python3.10</p>
                 </div>
             </div>
             </div>

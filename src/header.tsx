@@ -44,7 +44,7 @@ function Header(){
                 <div className="flex md:hidden items-center">
                     <button onClick={handleMenuOpen}
                     type="button"
-                    className="text-black  hover:text-gray-600 focus:outline-none focus:text-gray-600 z-5"
+                    className="text-black  hover:text-gray-600 focus:outline-none focus:text-gray-600 z-10"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className={openMenu ? 'hidden' : 'w-6 h-6'}>
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
@@ -57,7 +57,7 @@ function Header(){
                     <nav
                         className={
                         openMenu
-                            ? 'fixed bg-white right-0 top-0 w-full h-1/3 flex flex-col justify-center text-xl items-center  ease-out duration-300 border-b'
+                            ? 'fixed bg-white right-0 top-0 w-full h-1/3 flex flex-col justify-center text-xl items-center  ease-out duration-300 border-b z-1'
                             : 'fixed top-[-100%]'
                         }>
                             <div className="flex flex-col  items-center py-4">
