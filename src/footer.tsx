@@ -8,7 +8,7 @@ function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 border-t border-b py-6 md:flex-row">
         <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
             <Link to="/about" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
-            <Link to="/works" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Works</Link>
+            {/*<Link to="/works" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Works</Link>*/}
             <a href="https://docs.ymgmcmc.com" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
             <a href="https://forms.gle/n7bebwEsL4BmYgM68" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
         </nav>

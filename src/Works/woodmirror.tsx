@@ -42,6 +42,7 @@ const Work3 = ({name,video}: any) =>{
                     <p>制作時期:2023年2月</p>
                     <p>制作期間:1週間</p>
                     <p>使用ツール:VSCode Unity Blender Substance Painter</p>
+                    
                 </div>
             </div>
             </div>
